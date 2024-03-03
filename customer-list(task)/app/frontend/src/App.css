@@ -1,0 +1,77 @@
+body {
+  background-image: url("bg1.avif");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+input[type="text"],
+select {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #0b0b0b;
+}
+
+.button-container {
+  text-align: center; /* Center align buttons */
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: rgb(245, 240, 240);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+table {
+  width: 100%;
+  border: rgb(16, 16, 16);
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #181717;
+  font-weight: bold;
+}
+
+th {
+  background-color: #f8f5f5;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
